@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Helvetica', sans-serif;
+  list-style: none;
+}
+.btn {
+    width: 100px;
+    height: 43px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  .btn-success {
+    background-color: rgb(27, 226, 27);
+  }
+
+.wrapper {
+    background: #FF8008;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #FFC837, #FF8008);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #FFC837, #FF8008);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container-token {
+    width: 450px;
+    height: 240px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 3px 4px 21px -2px rgba(0, 0, 0, 0.38);
+    -webkit-box-shadow: 3px 4px 21px -2px rgba(0, 0, 0, 0.38);
+    -moz-box-shadow: 3px 4px 21px -2px rgba(0, 0, 0, 0.38);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+  }
+  /* .container-token {
+    height: 240px;
+    justify-content: flex-end;
+  } */
+  .container-token div {
+    width: 90%;
+    height: 140px;
+  }
+  
+  .container-token div:nth-child(2) {
+    text-align: center;
+  }
+  
+  .container-token div input {
+    width: 90%;
+    height: 40px;
+    outline: none;
+    padding: 0 5px;
+    margin-bottom: 20px;
+    border: none;
+    text-align: center;
+    font-size: 2.3rem;
+  }
+  .container-token h1{
+    margin-bottom: 15px;
+  }
+  .container-token progress[value] {
+    width: 100%;
+    height: 4px;
+    border: none;
+    border-radius: 0 0 8px 8px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: #e91e63;
+  }
+  progress[value]::-webkit-progress-bar,progress[value]::-moz-progress-bar {
+    background-color: gold;
+  }
+    
